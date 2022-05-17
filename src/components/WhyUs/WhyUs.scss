@@ -1,0 +1,19 @@
+@import '../../styles/params';
+
+.Why-us-main-wrapper {
+    min-height: 50vh;
+    max-width: 100%;
+    border-top: 3px solid #e6e5e5;
+    padding: 4.5rem 1rem;
+
+    .why-us-wrapper {
+        .title {
+            h2 {
+                text-align: center;
+                font-weight: 600;
+                font-size: 2rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

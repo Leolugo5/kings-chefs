@@ -2,12 +2,13 @@
 
 .packs_section {
     border-top: 2px solid $color_3;
+    padding-bottom: 4.5em;
 
     .packs-wrapper {
         background: rgb(255, 255, 255);
         max-width: 1100px;
         margin: 0 auto;
-        height: 100vh;
+        height: 100%;
 
 
         .packs_name {
@@ -17,7 +18,7 @@
 
                 .title {
                     text-align: center;
-                    font-weight: 400;
+                    font-weight: 600;
                     font-size: 2rem;
                     text-transform: uppercase;
                 }
@@ -31,7 +32,7 @@
             width: 100%;
             display: flex;
             flex-wrap: wrap;
-            gap: .5em;
+            gap: 1em;
         }
 
         .menu_map>* {

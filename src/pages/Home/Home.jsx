@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../../components/NavBar/NavBar'
 import Packs from '../../components/Packs/Packs'
+import WhyUs from '../../components/WhyUs/WhyUs'
 import './Home.scss'
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
                 </section>
             </div>
             <Packs />
+            <WhyUs />
         </div>
     )
 }
