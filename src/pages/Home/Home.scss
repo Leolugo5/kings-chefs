@@ -6,60 +6,63 @@
     padding-top: 0px;
 
     .header {
-        min-height: 100%;
-        height: 100vh;
+        min-height: 100vh;
+        height: 100%;
         background: url('https://images.pexels.com/photos/4253320/pexels-photo-4253320.jpeg?cs=srgb&dl=pexels-cottonbro-4253320.jpg&fm=jpg') repeat fixed 100%;
         background-size: cover;
         display: flex;
+        padding: 7em 1em;
+    }
 
-        .top-wrapper {
-            margin: 0 auto;
-            max-width: 1000px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
+    .top-wrapper {
+        margin: 0 auto;
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
 
-            .title {
-                h1 {
-                    color: $white;
-                    text-align: left;
-                    font-size: 6.5vw;
-                    font-family: $font_terc;
-                    font-weight: bold;
-                    text-shadow: $text_shadow_1;
-                }
-            }
-
-            .sub-title {
-                h2 {
-                    font-size: 3vw;
-                    color: $color_3;
-                    text-align: left;
-                    padding-top: 1em;
-                    letter-spacing: 2px;
-                    font-family: $font_sec;
-                    text-shadow: $text_shadow_1;
-                    text-transform: uppercase;
-                }
+        .title {
+            h1 {
+                color: $white;
+                text-align: left;
+                font-size: 6.5vw;
+                font-family: $font_terc;
+                font-weight: bold;
+                text-shadow: $text_shadow_1;
             }
         }
 
-        z-index: 1;
-        position: relative;
-
-
-
-        &::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            z-index: -1;
-            background-color: #0a0a0a54;
-            mix-blend-mode: multiply;
+        .sub-title {
+            h2 {
+                font-size: 3vw;
+                color: $color_3;
+                text-align: left;
+                padding-top: 1em;
+                letter-spacing: 2px;
+                font-family: $font_sec;
+                text-shadow: $text_shadow_1;
+                text-transform: uppercase;
+            }
         }
     }
+
+    z-index: 1;
+    position: relative;
+
+
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background-color: #0a0a0a54;
+        mix-blend-mode: multiply;
+    }
 }
+
+
 
 
 @media screen and (max-width: 720px) {

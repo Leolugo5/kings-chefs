@@ -40,7 +40,7 @@ function NavBar() {
                                 <a href="https://kingsfoodcozumel.company.site/" className='link-prov'>Contact</a>
                             </li>
                             <li className="item">
-                                <a href="https://kingsfoodcozumel.company.site/" className='link-prov'>Book</a>
+                                <a href="https://kingsfoodcozumel.company.site/" className='link-prov'>Book Now</a>
                             </li>
                         </div>
                     </div>
