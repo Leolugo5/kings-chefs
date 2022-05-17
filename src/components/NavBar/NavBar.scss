@@ -20,12 +20,16 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
+    box-shadow: $Main_shadow;
 
-    .wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        box-shadow: $Main_shadow;
+    .nav-wrapper {
+
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
 
 
         .left {
@@ -52,24 +56,31 @@
                 justify-content: space-around;
             }
         }
+
+        max-width: 1100px;
+        margin: 0 auto;
     }
 }
 
 
 @media screen and (max-width: 900px) {
     .Nav {
-        .wrapper {
-            flex: 2;
-            .left {
-                .logo {
-                    img {
-                        height: 110px;
+        .nav-wrapper {
+
+            .wrapper {
+                flex: 2;
+
+                .left {
+                    .logo {
+                        img {
+                            height: 110px;
+                        }
                     }
                 }
-            }
 
-            .right {
-                flex: 4;
+                .right {
+                    flex: 4;
+                }
             }
         }
     }
@@ -90,11 +101,15 @@
     }
 
     .Nav {
-      .wrapper {
-        .left {
-                .logo {
-                    img {
-                        height: 75px;
+        .nav-wrapper {
+
+
+            .wrapper {
+                .left {
+                    .logo {
+                        img {
+                            height: 75px;
+                        }
                     }
                 }
             }
@@ -111,21 +126,26 @@
     }
 
     .Nav {
-      .wrapper {
-          margin-top: -70px;
-          flex-direction: row-reverse;
-        .left {
-                .logo {
-                    img {
-                        height: 75px;
+        .nav-wrapper {
+            .wrapper {
+                margin-top: -70px;
+                flex-direction: row-reverse;
+
+                .left {
+                    .logo {
+                        img {
+                            height: 75px;
+                        }
                     }
                 }
             }
-        }
-        .right {
-            display: block;
-            .ul {
-                display: none;
+
+            .right {
+                display: block;
+
+                .ul {
+                    display: none;
+                }
             }
         }
     }

@@ -4,7 +4,6 @@
     width: 100%;
     height: 100%;
     padding-top: 0px;
-    padding-bottom: 100%;
 
     .header {
         min-height: 100%;
@@ -15,32 +14,49 @@
 
         .top-wrapper {
             margin: 0 auto;
-            max-width: 1100px;
+            max-width: 1000px;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
 
             .title {
                 h1 {
                     color: $white;
-                    text-align: center;
-                    font-size: 6vw;
+                    text-align: left;
+                    font-size: 6.5vw;
                     font-family: $font_terc;
+                    font-weight: bold;
                     text-shadow: $text_shadow_1;
                 }
             }
 
             .sub-title {
                 h2 {
-                    padding-top: 1em;
-                    color: $color_4;
-                    text-align: center;
                     font-size: 3vw;
-                    font-family: $font_prim;
-                    text-shadow: $text_shadow_2;
+                    color: $color_3;
+                    text-align: left;
+                    padding-top: 1em;
+                    letter-spacing: 2px;
+                    font-family: $font_sec;
+                    text-shadow: $text_shadow_1;
+                    text-transform: uppercase;
                 }
             }
+        }
+
+        z-index: 1;
+        position: relative;
+
+
+
+        &::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+            background-color: #0a0a0a54;
+            mix-blend-mode: multiply;
         }
     }
 }
@@ -51,26 +67,19 @@
         .header {
             .top-wrapper {
                 max-width: 350px;
-    
+
                 .title {
                     h1 {
-                        color: $white;
                         text-align: center;
-                        font-size: 3.5em;
-                        font-weight: bold;
-                        font-family: $font_terc;
-                        text-shadow: $text_shadow_1;
+                        font-size: 3.8em;
                     }
                 }
-    
+
                 .sub-title {
                     h2 {
                         padding-top: 1em;
-                        color: $color_4;
                         text-align: center;
-                        font-size: 1.8em;
-                        font-family: $font_prim;
-                        text-shadow: $text_shadow_2;
+                        font-size: 1.9em;
                     }
                 }
             }
