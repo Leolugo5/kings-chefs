@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../components/Footer/Footer'
 import NavBar from '../../components/NavBar/NavBar'
 import Packs from '../../components/Packs/Packs'
 import WhyUs from '../../components/WhyUs/WhyUs'
@@ -27,6 +28,7 @@ const Home = () => {
             </div>
             <Packs />
             <WhyUs />
+            <Footer />
         </div>
     )
 }

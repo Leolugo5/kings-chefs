@@ -12,7 +12,15 @@
                 text-align: center;
                 font-weight: 600;
                 font-size: 2rem;
-                text-transform: uppercase;
+                color: $color_1;
+            }
+        }
+        .content-wrapper {
+            display: flex;
+            .content {
+                font-weight: 500;
+                color: $color_1;
+                display: inline-block;
             }
         }
     }
