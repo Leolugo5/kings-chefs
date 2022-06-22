@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../../Media/logo.png'
 import './NavBar.scss'
 import './Closer.scss'
+import { Link } from 'react-router-dom'
 
 
 
@@ -10,37 +11,69 @@ function NavBar() {
         <div className='Nav'>
 
             <div className="nav-wrapper">
-                
+
                 <input id="toggle" type="checkbox" />
                 <label class="toggle-container" for="toggle">
                     <span class="button button-toggle"></span>
                 </label>
                 <nav class="nav">
+                    <Link to="/" className='nav-item'>
+                        Home
+                    </Link>
 
-                    <a class="nav-item" href="https://kingsfoodcozumel.company.site/">Packeges</a>
-                    <a class="nav-item" href="https://kingsfoodcozumel.company.site/">Menu</a>
-                    <a class="nav-item" href="https://kingsfoodcozumel.company.site/">Contact</a>
-                    <a class="nav-item" href="https://kingsfoodcozumel.company.site/">Book</a>
+                    <Link to="/packages" className='nav-item'>
+                        Packages
+                    </Link>
+
+                    <Link to="/menu" className='nav-item'>
+                        Menu
+                    </Link>
+
+                    <Link to="/Contact" className='nav-item'>
+                        Contact
+                    </Link>
+
+                    <Link to="/booking" className='nav-item'>
+                        Book Now
+                    </Link>
                 </nav>
                 <div className="wrapper">
                     <div className="left">
                         <div className="logo">
-                            <img src={logo} alt="" />
+                            <Link to="/">
+                                <img src={logo} alt="" />
+                            </Link>
                         </div>
                     </div>
                     <div className="right">
                         <div className="ul">
                             <li className="item">
-                                <a href="https://kingsfoodcozumel.company.site/" className='link-prov'>Packeges</a>
+                                <Link to="/packages" className="link-prov ">
+                                    <span>
+                                        Packages
+                                    </span>
+                                </Link>
                             </li>
                             <li className="item">
-                                <a href="https://kingsfoodcozumel.company.site/" className='link-prov'>Menu</a>
+                                <Link to="/menu" className='link-prov'>
+                                    <span>
+                                        Menu
+                                    </span>
+                                </Link>
                             </li>
                             <li className="item">
-                                <a href="https://kingsfoodcozumel.company.site/" className='link-prov'>Contact</a>
+                                <Link to="/contact" className='link-prov'>
+                                    <span>
+                                        Contact
+                                    </span>
+                                </Link>
                             </li>
                             <li className="item">
-                                <a href="https://kingsfoodcozumel.company.site/" className='link-prov'>Book Now</a>
+                                <Link to="/booking" className='link-prov'>
+                                    <span>
+                                        Book Now
+                                    </span>
+                                </Link>
                             </li>
                         </div>
                     </div>

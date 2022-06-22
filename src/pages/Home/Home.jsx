@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
+import HowItWorks from '../../components/How-Works/HowItWorks'
 import NavBar from '../../components/NavBar/NavBar'
 import Packs from '../../components/Packs/Packs'
 import WhyUs from '../../components/WhyUs/WhyUs'
@@ -27,6 +28,7 @@ const Home = () => {
                 </section>
             </div>
             <Packs />
+            <HowItWorks />
             <WhyUs />
             <Footer />
         </div>

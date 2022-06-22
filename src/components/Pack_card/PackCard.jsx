@@ -7,7 +7,7 @@ function Pack_card({ pack, i }) {
         <div className='Pack_card_wrapper'>
             <div className="card-wrapper">
                 <div className="card-img">
-                    <img src={pack.img} alt="description of packege" />
+                    <img loading='lazy' src={pack.img} alt="description of packege" />
                 </div>
                 <div className="description-wrapper">
                     <div className="card-top">
