@@ -66,10 +66,12 @@ export const Menu_breakfast = [
 export const Menu_lunch = [
     {
         id: 1,
-        'name': 'lunch',
+        'name': "Morning Leo's pack",
         'description': 'Scrambled egg with tomato, onion and chopped green pepper.',
         'history': 'They probably arose from the heritage of the Spanish tortilla. Similar to a fritada, the egg is beaten and cooked in a pan with oil, along with chopped tomato, onion and green, jalapeño or serrano peppers.',
-        'main_ingredients': 'Eggs, Red tomato, White onion, Green peper'
+        'main_ingredients': 'Eggs, Red tomato, White onion, Green peper',
+        'image': '/static/media/Dish1.ce82cf8644a739133b3b.jpg',
+        'image_alt': 'Foto de platillo 1'
     },
     {
         id: 2,
@@ -106,7 +108,7 @@ export const Menu_dinner = [
         'name': 'dinner ',
         'description': 'Scrambled egg with tomato, onion and chopped green pepper.',
         'history': 'They probably arose from the heritage of the Spanish tortilla. Similar to a fritada, the egg is beaten and cooked in a pan with oil, along with chopped tomato, onion and green, jalapeño or serrano peppers.',
-        'main_ingredients': 'Eggs, Red tomato, White onion, Green peper'
+        'main_ingredients': 'Eggs, Red tomato, White onion, Green peper',
     },
     {
         id: 2,
@@ -323,6 +325,56 @@ export const Menu_dessert = [
     }
 ]
 export const Menu_Packs = [
+    {
+        id: 1,
+        'name': 'Standar',
+        'breakfast': 'Main dish with natural juice or coffee',
+        'snacks': 'Snacks break',
+        'lunch': 'Main dish with soup or cream',
+        'two_meal': 'Or',
+        'diner': 'Main dish with salad or dessert',
+        'description': 'This service includes two meals, breakfast and your choice of lunch or dinner',
+        'history': 'They probably arose from the heritage of the Spanish tortilla. Similar to a fritada, the egg is beaten and cooked in a pan with oil, along with chopped tomato, onion and green, jalapeño or serrano peppers.',
+        'main_ingredients': '',
+        'img': 'https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg?cs=srgb&dl=pexels-daria-shevtsova-704569.jpg&fm=jpg'
+    },
+    {
+        id: 2,
+        'name': 'American',
+        'breakfast': 'Main dish with natural juice or coffee',
+        'drinks': 'Drinks break',
+        'lunch': 'Main dish with soup or cream',
+        'two_meal': 'Or',
+        'diner': 'Main dish with salad or dessert',
+        'description': 'This service includes two meals, halftime drinks (drinks prepared with or without alcohol) and lunch or dinner (main dish, soup or cream or salad and dessert)',
+        'history': 'They probably arose from the heritage of the Spanish tortilla. Similar to a fritada, the egg is beaten and cooked in a pan with oil, along with chopped tomato, onion and green, jalapeño or serrano peppersIn Mexico, the French omelette or egg omelette is simply known as "omelette". It was introduced in the country in the 16th century. There is the variant "ham omelette" or "turkey ham omelette" and in some cases, mushrooms and/or ham are additionally mixed with cheese (Oaxaca, manchego or gouda type).',
+        'main_ingredients': 'Eggs, Turkey ham, Manchego cheese, White Onion.',
+        'img': 'https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&dl=pexels-chan-walrus-958545.jpg&fm=jpg'
+    },
+    {
+        id: 3,
+        'name': 'Premium',
+        'breakfast': 'Main dish with natural juice or coffee',
+        'drinks': 'Drinks break',
+        'lunch': 'Main dish with soup or cream',
+        'diner': 'Main dish with salad or dessert',
+        'description': 'This service includes three meals, breakfast (main dish accompanied by natural juice or coffee), lunch (main course accompanied by soup or cream or salad) and dinner (main course, soup or cream or salad and dessert)',
+        'history': 'Huevos rancheros originated in Mexico and it is said that they were the basis or typical breakfast of day laborers, both in Mexico itself and in the southern United States. The basic components are corn, the base of which is formed by tortillas; the sauce, made with jalapeño bell pepper, tomatoes and onions; and the sauce, which is made with tomatoes and onions.',
+        'main_ingredients': 'Fried Eggs, Tomato sauce, Fried tostilla, Cilantro.',
+        'img': 'https://images.pexels.com/photos/299347/pexels-photo-299347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 4,
+        'name': "Kings buffet Experience",
+        'kings_buffet': 'Buffet (variety of meats), sauce table, fresh water station and alcoholic and non-alcoholic beverage service ',
+        'kings_buffet_extra_content': 'This service is constantly replenished during the day to always have food and have the best possible experience.',
+        'description': 'Kitchen service with a buffet of meals (variety of grilled meats) served in steel buffets with a fire to keep it warm, experience of a Mexican night (luxury at an affordable price)',
+        'history': 'Huevos divorciados were created by Mexican day laborers in order to have a breakfast with enough energy to be able to endure all the hours of work and effort. The ingredients are beans with tortilla chips and, unlike the rancheros, these are served with two different types of sauces; green and red.',
+        'main_ingredients': 'Fried Eggs, Fried tostilla, Red or green sauce, Beans.',
+        'img': 'https://images.pexels.com/photos/1310777/pexels-photo-1310777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    }
+]
+export const Featured_Dish = [
     {
         id: 1,
         'name': 'Standar',

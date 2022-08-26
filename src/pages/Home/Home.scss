@@ -1,50 +1,168 @@
 @import '../../styles/params';
 
+#line-top {
+    position: absolute;
+    height: 2px;
+    width: 15%;
+    right: 0;
+    background-color: $color_2;
+}
+
+#line-top::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    right: -5px;
+    top: -5px;
+    border-top-right-radius: 3px;
+    background-color: rgb(121, 121, 121);
+}
+
+#line-right {
+    position: absolute;
+    height: 15%;
+    width: 2px;
+    right: 0;
+    background-color: $color_2;
+}
+
+#line-right::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    right: -5px;
+    top: -5px;
+    background-color: rgb(121, 121, 121);
+}
+
+/* BOTTOM LINES */
+#line-bottom {
+    position: absolute;
+    height: 2px;
+    width: 15%;
+    left: 0;
+    background-color: $color_2;
+}
+
+#line-bottom::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: -5px;
+    bottom: -5px;
+    border-bottom-left-radius: 3px;
+    background-color: rgb(121, 121, 121);
+}
+
+#line-left {
+    position: absolute;
+    height: 15%;
+    width: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: $color_2;
+}
+
+#line-left::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    right: 5px;
+    top: 5px;
+    background-color: rgb(121, 121, 121);
+}
+
 .home {
     width: 100%;
     height: 100%;
     padding-top: 0px;
-    
+
     .header {
-        height: 100%;
         background: url('https://images.pexels.com/photos/4253320/pexels-photo-4253320.jpeg?cs=srgb&dl=pexels-cottonbro-4253320.jpg&fm=jpg') repeat fixed 100%;
         background-size: cover;
         display: flex;
+        flex-direction: column;
         padding: 7em 1em;
+        align-items: center;
+        z-index: 1;
+        position: relative;
+        
     }
-    
+    .header::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background-color: #110f0fb6;
+        mix-blend-mode: multiply;
+    }
+
     .top-wrapper {
-        margin: 0 auto;
         max-width: 1000px;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         padding-top: 4rem;
 
         .title {
             h1 {
                 color: $white;
-                text-align: left;
+                text-align: center;
                 font-size: 6.5vw;
-                font-family: $font_terc;
-                font-weight: bold;
+                font-weight: 400;
+                font-family: $font_prim;
+                text-transform: uppercase;
                 text-shadow: $text_shadow_1;
             }
         }
 
         .sub-title {
             h2 {
-                font-size: 3vw;
-                color: $color_3;
-                text-align: left;
-                padding-top: 1em;
-                letter-spacing: 2px;
-                font-family: $font_sec;
-                text-shadow: $text_shadow_1;
+                text-align: center;
+                color: $color_2;
+                font-size: 2.5vw;
+                letter-spacing: 3px;
+                padding-top: .2rem;
+                font-family: $font_prim;
                 text-transform: uppercase;
+                text-shadow: $text_shadow_1;
+                font-weight: 200;
             }
         }
+    }
+
+    .top-body {
+        position: relative;
+        max-width: 400px;
+        margin-top: 3rem;
+    }
+
+    .top-body-wrapper {
+        color: $color_2;
+        padding: 2rem;
+
+        .top-body-title {
+            text-align: center;
+            .title {
+                font-weight: 500;
+                .top-body-title-span {
+                    background-color: $color_2;
+                    color: $color_1;
+                    border-radius: 1000px;
+                    padding:  0 .5rem;
+                }
+            }
+        }
+        .top-body-content {
+            padding: .8rem 0;
+        }
+
     }
 
     z-index: 1;
@@ -52,14 +170,7 @@
 
 
 
-    &::after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        z-index: -1;
-        background-color: #0a0a0a54;
-        mix-blend-mode: multiply;
-    }
+
 }
 
 

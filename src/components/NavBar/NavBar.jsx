@@ -2,7 +2,8 @@ import React from 'react'
 import logo from '../../Media/logo.png'
 import './NavBar.scss'
 import './Closer.scss'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
+
 
 
 
@@ -38,14 +39,12 @@ function NavBar() {
                     </Link>
                 </nav>
                 <div className="wrapper">
-                    <div className="left">
+                    <div className="right">
                         <div className="logo">
                             <Link to="/">
                                 <img src={logo} alt="" />
                             </Link>
                         </div>
-                    </div>
-                    <div className="right">
                         <div className="ul">
                             <li className="item">
                                 <Link to="/packages" className="link-prov ">

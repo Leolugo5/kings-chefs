@@ -5,9 +5,16 @@
 
     .link-prov {
         text-decoration: none;
-        color: $color_1;
-        font-weight: 500;
-        font-size: 1.5rem;
+        color: $color_2;
+        font-weight: 300;
+        font-size: 1.32rem;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $color_3;
+            text-decoration-line: underline ;
+            text-decoration-thickness:  1px;
+        }
     }
 }
 
@@ -16,7 +23,7 @@
 }
 
 .Nav {
-    background-color: $color_2;
+    background-color: $color_1;
     position: fixed;
     top: 0;
     width: 100%;
@@ -28,18 +35,8 @@
         .wrapper {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
-        }
-
-
-        .left {
-            flex: 2;
-
-            .logo {
-                img {
-                    height: 110px;
-                }
-            }
+            justify-content: space-evenly;
+            padding: 1rem 2rem  0 2rem;
         }
 
         .right {
@@ -47,10 +44,17 @@
             display: flex;
             width: 100%;
             align-items: center;
+            padding-left: 1rem;
+
+            .logo {
+                img {
+                    height: 75px;
+                }
+            }
 
             .ul {
                 width: inherit;
-                padding: 0 $em_1_5;
+                padding: 0 1.5rem;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;

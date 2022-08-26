@@ -1,0 +1,42 @@
+@import '../../styles/params';
+
+.featured-menu-item {
+    .featured-menu-item-wrapper {
+        padding: 2rem 0;
+        position: relative;
+        border-top: 2px solid $color_3;
+        background-color: #2B2B29;
+
+        .featured-map {
+            display: flex;
+            flex-direction: row;
+            width: 500%;
+        }
+
+        .Arrows {
+            height: 20px;
+            position: absolute;
+            top: 50%;
+            z-index: 998;
+        }
+
+        #Arrow-left {
+            left: 2%;
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+        }
+
+        #Arrow-right {
+            right: 2%;
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+        }
+
+    }
+}

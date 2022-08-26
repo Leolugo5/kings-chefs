@@ -1,0 +1,55 @@
+@import'../../styles/params';
+
+.main-button-primary {
+    background-color: $color_3;
+    padding:  .4rem;
+    border-radius: 3px;
+    
+    a {
+        text-decoration: none;
+        color: $color_2;
+        font-weight: 600;
+        text-shadow:  $text_shadow_3;
+    }
+    
+    &:hover {
+        animation: load .2s ease-in-out forwards;
+    }
+}
+
+.main-button-secondary {
+    background-color: $color_3;
+    padding:  .4rem;
+    border-radius: 3px;
+    
+    a {
+        color: $color_2;
+        font-weight: 600;
+        text-shadow:  $text_shadow_3;
+    }
+
+    &:hover {
+        animation: load .2s ease-in-out forwards;
+    }
+}
+
+.main-button-component {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+@keyframes load {
+    0% {
+        background-color: $color_3;
+        color: $color_2;
+    }
+
+    100% {
+        background-color: transparent;
+        outline: solid 1px $color_3;
+    }
+}

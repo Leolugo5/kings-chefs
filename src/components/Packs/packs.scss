@@ -1,14 +1,15 @@
 @import '../../styles/params';
 
 .packs_section {
-    border-top: 2px solid $color_3;
+    background: $color_1;
     padding-bottom: 4.5em;
+    border-top: 2px solid $color_3;
 
     .packs-wrapper {
-        background: rgb(255, 255, 255);
-        max-width: 1100px;
-        margin: 0 auto;
         height: 100%;
+        margin: 0 auto;
+        color: $color_2;
+        max-width: 1100px;
 
 
         .packs_name {
@@ -18,7 +19,8 @@
 
                 .title {
                     text-align: center;
-                    font-weight: 600;
+                    font-weight: 400;
+                    letter-spacing: 3px;
                     font-size: 2rem;
                     text-transform: uppercase;
                 }
@@ -26,13 +28,13 @@
         }
 
         .menu_map {
+            gap: 1rem;
+            display: flex;
+            width: 100%;
             margin: 0 auto;
+            flex-wrap: wrap;
             padding: 1em 4em;
             max-width: 1100px;
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1em;
         }
 
         .menu_map>* {

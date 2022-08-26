@@ -4,6 +4,11 @@ html {
     scroll-behavior: smooth;
     scroll-margin-top: 100px;
 }
+
+.App {
+    overflow-x: hidden;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -11,13 +16,16 @@ html {
     font-family: $font_prim;
     -webkit-text-size-adjust: 100%;
 }
+
 .a-text {
     color: $color_3;
     font-weight: 700;
+
     &:hover {
         text-decoration: underline;
     }
 }
+
 .wd-100 {
     width: 100%;
 }
@@ -29,9 +37,11 @@ html {
 .max-wid-768 {
     max-width: 768px;
 }
+
 .display-flex {
     display: flex;
 }
+
 .items-center {
     align-items: center;
 }
@@ -55,40 +65,63 @@ html {
 .text-justify {
     text-align: justify;
 }
+
 .ft-w400 {
     font-weight: 400;
 }
+
 .ft-s-1rem {
     font-size: 1rem;
 }
+
 .ft-s-08rem {
     font-size: .8rem;
 }
+
 .bg-grey {
     background-color: #efefef;
 }
+
 .bg-tomato {
     background-color: tomato;
 }
+
 .bg-primary {
     background-color: $color_1;
 }
+
 .bg-secondary {
     background-color: $color_2;
 }
+.bg-secondary-dark {
+    background-color: $color_1;
+}
+
 .bg-optional {
     background-color: $color_3;
 }
+.color-optional {
+    cursor: pointer;
+    color: $color_2;
+    &:hover {
+        background-color: $color_1;
+        border:  1px solid $color_3;
+    }
+}
+
 .text-color-1 {
     color: $color_1;
 }
+
 .text-color-2 {
     color: $color_2;
 }
+
 .text-capi {
     text-transform: capitalize;
 }
+
 .new-section-border {
-    border-top: 3px solid #e6e5e5;
+    border-top: 3px solid $color_3;
     padding: 4.5rem 1rem;
 }

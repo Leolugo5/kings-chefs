@@ -1,11 +1,17 @@
 import React from 'react'
 import NavBar from '../../components/NavBar/NavBar'
+import Footer from '../../components/Footer/Footer'
+import Packs from '../../components/Packs/Packs'
+import './Packages.scss'
 
 function Packages() {
   return (
     <div>
       <NavBar />
-      <h1 className='padding-2r'>Hola packages!</h1>
+      <div className='packages-main-wrapper'>
+        <Packs />
+      </div>
+      <Footer />
     </div>
   )
 }

@@ -3,10 +3,10 @@ import './Footer.scss'
 
 function Footer() {
     return (
-        <div className='footer wd-100 padding-2r bg-grey'>
+        <div className='footer wd-100 padding-2r  new-section-border '>
             <div className="footer-wrapper wd-100">
                 <div className="content wd-100 display-flex">
-                    <div class="leo-wrapper max-wid-1100 margin-auto">
+                    <div class=" max-wid-1100 margin-auto">
                         <span>
                             © Copyright King's Chefs All Rights Reserved |
                         </span>

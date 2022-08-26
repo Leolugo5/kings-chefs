@@ -5,13 +5,13 @@ import PackCard from '../Pack_card/PackCard'
 
 function Packs() {
     return (
-        <div className='packs_section'>
+        <div id='packs_section' className='packs_section'>
             <div className="packs-wrapper">
 
                 <div className="packs_name">
                     <div className="title_wrapper">
                         <h2 className="title">
-                            see our packages
+                            our packages
                         </h2>
                     </div>
                 </div>
