@@ -1,0 +1,18 @@
+@import '../../../styles/params';
+
+
+.menu-items-card {
+    color: $color_2;
+
+    .img-cover {
+        width: 100%;
+        height: 45%;
+
+
+        .img-file {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

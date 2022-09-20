@@ -14,10 +14,10 @@ function NavBar() {
             <div className="nav-wrapper">
 
                 <input id="toggle" type="checkbox" />
-                <label class="toggle-container" for="toggle">
-                    <span class="button button-toggle"></span>
+                <label className="toggle-container" htmlFor="toggle">
+                    <span className="button button-toggle"></span>
                 </label>
-                <nav class="nav">
+                <nav className="nav">
                     <Link to="/" className='nav-item'>
                         Home
                     </Link>
@@ -41,7 +41,7 @@ function NavBar() {
                 <div className="wrapper">
                     <div className="right">
                         <div className="logo">
-                            <Link to="/">
+                            <Link className='a-centered' to="/">
                                 <img src={logo} alt="" />
                             </Link>
                         </div>

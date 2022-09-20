@@ -1,6 +1,8 @@
 @import '../../styles/params';
 
 .featured-menu-item {
+    overflow-x: hidden;
+
     .featured-menu-item-wrapper {
         padding: 2rem 0;
         position: relative;

@@ -1,20 +1,22 @@
 @import '../../styles/params';
 
 
+.booking-main-wrapper {
 
-.booking-wrapper {
-    padding-top: 10rem;
+    .booking-wrapper {
 
-    h1 {
-        text-transform: uppercase;
-        font-weight: 500;
-        padding: 0 4rem;
-        color: $color_3;
+        h1 {
+            text-transform: uppercase;
+            font-weight: 500;
+            padding: 0 4rem;
+            color: $color_3;
+            padding-top: 1rem;
+        }
+
+
+        .booking-form-wrapper {
+            padding: 2rem 4rem;
+        }
+
     }
-
-
-    .booking-form-wrapper {
-        padding: 2rem 4rem;
-    }
-
 }
