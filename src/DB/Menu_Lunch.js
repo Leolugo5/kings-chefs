@@ -151,5 +151,68 @@ export const Menu_lunch = [
         'main_ingredients': 'Chicken, Mole (sauce), Rice, Sesame seed',
         'img': 'https://drive.google.com/file/d/1CT9Q_QbW2jerKsuAaVrxmW72W8i-SUfq/view?usp=sharing',
         'alt': 'Chicken with Mole (Red or Green Mole)' 
+    },
+    {
+        id: 18,
+        'name': 'Poblano peppers stuffed with vegetables',
+        'description': 'Poblano peppers stuffed with vegetables, bathed with traditional Mexican sauce.',
+        'history': 'Its origin dates back to the Spanish conquest of Mexico in the 16th century, when the mixture of European and indigenous culinary traditions gave rise to a delicious dish that is still an icon of Mexican gastronomy today.',
+        'main_ingredients': 'Poblano peppers, Vegetables, Tomato sauce, Flour.',
+        'img': 'https://drive.google.com/file/d/1PpFI4tWQBOxbnWWjwgCZiyeC7hVDjn49/view?usp=sharing',
+        'alt': 'Poblano peppers stuffed with vegetables' 
+    },
+    {
+        id: 19,
+        'name': 'Croquettes with vegetableshicken with Mole (Red or Green Mole)',
+        'description': 'Croquettes coated and fried with vegetables, accompanied by fried beans with onion and olive oil.',
+        'history': 'Croquettes are a portion of dough that can have different shapes, although traditionally it is usually oval or round. Its content usually consists of ingredients related to meat, fish or vegetables. The croquette did not arrive in the peninsula until the end of the 19th century. This appetizer originated in France.',
+        'main_ingredients': 'Vegetables, Potato, Flour, Eggs.',
+        'img': 'https://drive.google.com/file/d/1qhuwTd84a1c8s-AglS5ADS9Tr1Holv5a/view?usp=sharing',
+        'alt': 'Croquettes with vegetables' 
+    },
+    {
+        id: 20,
+        'name': 'Portobello mushroom tart',
+        'description': 'Portobello mushroom, Broccoli, Corn dough, Sesame oil.',
+        'history': 'Quality products, whole wheat flours, seeds and a few seasonings come together to give shape to a delicious and very practical recipe. Today we cook a tart with homemade dough (smoked paprika flavor), filled with onion, Portobello mushrooms and cheese.',
+        'main_ingredients': 'Chicken, Mole (sauce), Rice, Sesame seed',
+        'img': 'https://drive.google.com/file/d/1PpFI4tWQBOxbnWWjwgCZiyeC7hVDjn49/view?usp=sharing',
+        'alt': 'Chicken with Mole (Red or Green Mole)' 
+    },
+    {
+        id: 21,
+        'name': 'Breaded nopales',
+        'description': 'Nopales, coated and grilled with olive oil, accompanied with baked vegetables and rice.',
+        'main_ingredients': 'Nopales, Olive oil, Vegetables, Rice,',
+        'history': 'It is a light and complete dish because we find vegetables, fat and protein, only lacking the carbohydrate, which could be eating a corn tortilla to complement these nopales or baked corn tostada. This recipe can be garnished with rice and refried beans.',
+        'img': 'https://drive.google.com/file/d/1lCo8F8Rk7VPXDDjksQwRIWpcOFrCR77F/view?usp=sharing',
+        'alt': 'Breaded nopales' 
+    },
+    {
+        id: 22,
+        'name': 'Vegetarian mixiote (vegetables mixiote)',
+        'description': 'Mixiote extracted from maguey penca, steamed vegetables with avocado leaf.',
+        'history': 'Vegetarian mixiote consists of a vegetable stew, usually cooked with lamb and mutton, with a chili sauce wrapped in a mamey leaf and it is believed that this dish originated in the south of the Mexican Altiplanicie (State of Mexico, Tlaxcala, Puebla, Hidalgo and Queretaro), because in this area is where the maguey pulqu.',
+        'main_ingredients': 'Maguey penca, Vegetables, Avocado leaf, Vegetables brout.',
+        'img': 'https://drive.google.com/file/d/1qgy8Tw_ha9TVpPnnAoLmfkWxWoiIEYJI/view?usp=sharing',
+        'alt': 'Vegetarian mixiote (vegetables mixiote)' 
+    },
+    {
+        id: 23,
+        'name': 'Vegetarian Fajitas',
+        'description': 'Strips of vegetables and peppers, marinated with spices, accompanied by various sauces.',
+        'history': 'The vegetarian fajitas is one of the most traditional and popular dishes of Tex-Mex cuisine (fusion of Mexican and Texan cuisines). It consists of grilled vegetables cut into strips and sliced into strips, served on a corn flour or wheat flour tortilla. Originally fajitas were made only with beef; nowadays they have become popular with pork, chicken, chicken and beef.',
+        'main_ingredients': 'Strips of vegetables, Peppers, Onion, Olive oil.',
+        'img': 'https://drive.google.com/file/d/1dRkZFXhMEt5s-ypvo2QcCv0F8ujvIsXf/view?usp=sharing',
+        'alt': 'Vegetarian Fajitas' 
+    },
+    {
+        id: 24,
+        'name': 'Tamale Pib (Mukbil Pollo)',
+        'description': 'Baked mayan tamale, wrapped with banana leaf and hierba santa.',
+        'history': 'Tamale pib is a traditional dish from the Yucatan Peninsula, Mexico, prepared from corn dough, lard, chicken meat and various seasonings, forming a kind of large tamale, wrapped in banana leaves and cooked slowly under the ground in a Mayan oven.',
+        'main_ingredients': 'Chicken, Dough (masa de khol), Banana leaf, Hierba santa.',
+        'img': 'https://drive.google.com/file/d/1CT9Q_QbW2jerKsuAaVrxmW72W8i-SUfq/view?usp=sharing',
+        'alt': 'Tamale Pib (Mukbil Pollo)' 
     }
 ]

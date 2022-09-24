@@ -5,6 +5,15 @@ import './DishCards.scss'
 
 function DishCards({ dish, i, dishSelected }) {
 
+  const getUrl = () => {
+    let url = `${dish.img}`;
+    let someUrl = url.slice(32);
+    let mainUrl = someUrl.substring(0, someUrl.length - 17);
+    const str = `https://drive.google.com/uc?id=${mainUrl}`
+    return str
+  }
+  const mainUrl = getUrl()
+
   const slide = dishSelected;
   console.log('this is the number ', slide)
   const currentSlide = 'translateX(-' + slide + '00%)';
@@ -27,7 +36,7 @@ function DishCards({ dish, i, dishSelected }) {
           <div className="img-wrapper">
             <div id="line-top"></div>
             <div id="line-right"></div>
-            <img className='picture' src={`http://localhost:3000${dish.image}`} alt={dish.image_alt} />
+            <img className='picture' src={mainUrl} alt={dish.image_alt} />
             <div id="line-bottom"></div>
             <div id="line-left"></div>
           </div>
