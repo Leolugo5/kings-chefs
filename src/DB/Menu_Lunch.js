@@ -176,7 +176,7 @@ export const Menu_lunch = [
         'description': 'Portobello mushroom, Broccoli, Corn dough, Sesame oil.',
         'history': 'Quality products, whole wheat flours, seeds and a few seasonings come together to give shape to a delicious and very practical recipe. Today we cook a tart with homemade dough (smoked paprika flavor), filled with onion, Portobello mushrooms and cheese.',
         'main_ingredients': 'Chicken, Mole (sauce), Rice, Sesame seed',
-        'img': 'https://drive.google.com/file/d/1PpFI4tWQBOxbnWWjwgCZiyeC7hVDjn49/view?usp=sharing',
+        'img': 'https://drive.google.com/file/d/1dRkZFXhMEt5s-ypvo2QcCv0F8ujvIsXf/view?usp=sharing',
         'alt': 'Chicken with Mole (Red or Green Mole)' 
     },
     {
