@@ -5,15 +5,14 @@ import './Booking.scss'
 import { BookingForm } from '../../components/Booking/BookingForm'
 
 function Book() {
-  const pageSelected =  'Book Now'
+  const pageSelected = 'Book Now'
   return (
     <div className='booking-main-wrapper'>
+      <NavBar />
       <div className="booking-wrapper">
-        <NavBar />
         <h1>Book Now </h1>
-
         <div className="booking-form-wrapper">
-          <BookingForm  pageSelected={pageSelected} />
+          <BookingForm pageSelected={pageSelected} />
         </div>
       </div>
       <Footer />

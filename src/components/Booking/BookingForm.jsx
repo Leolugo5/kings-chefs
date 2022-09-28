@@ -3,7 +3,7 @@ import './BookingForm.scss'
 export const BookingForm = ({ pageSelected }) => {
     return (
         <div>
-            <form>
+            <form action="https://formsubmit.co/leolugo5@outlook.com" method="POST">
                 <label htmlFor="Select Packages">Select Package</label>
                 <select class="form-select bg-secondary-dark color-optional" aria-label="Default select example">
                     <option className='option' selected>Select a package</option>
@@ -60,12 +60,12 @@ export const BookingForm = ({ pageSelected }) => {
                 <br />
                 <div class="input-group">
                     <span class="input-group-text bg-secondary-dark color-optional">Message</span>
-                    <textarea class="form-control bg-secondary-dark color-optional inset-shadow" aria-label="With textarea"></textarea>
+                    <textarea type="text" name="message" placeholder="Type your message" required class="form-control bg-secondary-dark color-optional inset-shadow" aria-label="With textarea"></textarea>
                 </div>
                 <br />
                 <div class="mb-3">
                     <label for="exampleInputEmail1" className="form-label">Email address</label>
-                    <input type="email" className="form-control bg-secondary-dark color-optional inset-shadow" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    <input type="email" name="email" placeholder="Type your email" required className="form-control bg-secondary-dark color-optional inset-shadow" id="exampleInputEmail1" aria-describedby="emailHelp" />
                     <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <button type="submit" className="btn btn-primary bg-secondary-dark color-optional"> {pageSelected} </button>

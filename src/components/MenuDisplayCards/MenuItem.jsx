@@ -14,13 +14,22 @@ export const MenuItem = ({ cat, i }) => {
     return (
         <>
             <div className="menu-items-card" id={i}>
-                <div className="img-cover">
-                    <LazyLoadImage className='img-file' src={mainUrl} alt={cat.alt} />
+                <div className="card-top">
+                    <div className="img-cover">
+                        <LazyLoadImage className='img-file' src={mainUrl} alt={cat.alt} />
+                    </div>
                 </div>
-                <h3 className="dish-title">
-                    {cat.name}
-                </h3>
-                <p>{cat.description}</p>
+                <div className="card-bottom">
+                    <h3 className="dish-title">
+                        {cat.name}
+                    </h3>
+                    <p className='p-description'>{cat.description}</p>
+                    <span className="ingredients">
+                        <p>
+                            {cat.main_ingredients}
+                        </p>
+                    </span>
+                </div>
             </div>
         </>
     )

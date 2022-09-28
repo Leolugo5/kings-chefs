@@ -20,23 +20,24 @@
             position: absolute;
             top: 50%;
             z-index: 998;
+            transform: scale(3);
         }
 
         #Arrow-left {
-            left: 2%;
+            left: 2.5%;
 
             &:hover {
                 cursor: pointer;
-                transform: scale(1.1);
+                transform: scale(3.4);
             }
         }
 
         #Arrow-right {
-            right: 2%;
+            right: 2.5%;
 
             &:hover {
                 cursor: pointer;
-                transform: scale(1.1);
+                transform: scale(3.4);
             }
         }
 

@@ -36,7 +36,9 @@ function DishCards({ dish, i, dishSelected }) {
           <div className="img-wrapper">
             <div id="line-top"></div>
             <div id="line-right"></div>
-            <img className='picture' src={mainUrl} alt={dish.image_alt} />
+            <div className="img-holder">
+              <img className='picture' src={mainUrl} alt={dish.image_alt} />
+            </div>
             <div id="line-bottom"></div>
             <div id="line-left"></div>
           </div>

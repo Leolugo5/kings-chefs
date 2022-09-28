@@ -1,5 +1,6 @@
 import { MainButtonPrimary, MainButtonSecondary } from "../MainButton"
 import  '../Buttons.scss'
+import React from "react"
 
 
 export const MainButtonComponent = () => {

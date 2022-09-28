@@ -14,7 +14,7 @@ export const Menu_lunch = [
         'description': 'Combination of diverse regions of Mexican dishes: tamales, Mole enchiladas, Arrachera (tender beef), Guacamole and Mexican sauces.',
         'history': 'This dish was designed with the purpose of providing guests with the main Mexican appetizers, which are most popular in the country. The traditional antojitos such as tamales, Mole enchiladas, Arrachera (tender beef) for a fabulous Mexican night.',
         'main_ingredients': 'Chicken, Mole sauce, Corn dough, Tender beef.',
-        'img': 'https://drive.google.com/file/d/1ZlQIQcADNEpJdh6dUhh1NTVAbb-ZiTjg/view?usp=sharing',
+        'img': 'https://drive.google.com/file/d/1dRkZFXhMEt5s-ypvo2QcCv0F8ujvIsXf/view?usp=sharing',
         'alt': 'Mexican Eggs' 
     },
     {

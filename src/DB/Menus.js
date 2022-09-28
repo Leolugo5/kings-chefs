@@ -213,7 +213,7 @@ export const Menu_soups = [
         'main_ingredients': 'Fried Eggs, Fried tostilla, Habanero chili sauce, Ham.'
     }
 ]
-export const Menu_kids = [
+export const Menu_kidss = [
     {
         id: 1,
         'name': 'para niños',
@@ -250,7 +250,7 @@ export const Menu_kids = [
         'main_ingredients': 'Fried Eggs, Fried tostilla, Habanero chili sauce, Ham.'
     }
 ]
-export const Menu_dessert = [
+export const Menu_desserts = [
     {
         id: 1,
         'name': 'postre',

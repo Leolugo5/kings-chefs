@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Buttons.scss'
 
 export const MainButtonPrimary = () => {
     return (
         <div className="main-button-primary">
-            <a href="https://www.instagram.com/hermitcooking4us/">Book Now</a>
+            <Link to="/booking">
+                Book Now
+            </Link>
         </div>
     )
 }
@@ -12,7 +15,9 @@ export const MainButtonPrimary = () => {
 export const MainButtonSecondary = () => {
     return (
         <div className="main-button-secondary">
-            <a href="https://www.instagram.com/hermitcooking4us/">See Menu</a>
+            <Link to="/menu">
+                See Menu
+            </Link>
         </div>
     )
 }

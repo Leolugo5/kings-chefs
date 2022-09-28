@@ -32,7 +32,7 @@ export const Menu_breakfast = [
         'description': 'Fried eggs mounted on fried tortillas, bathed in with red and green sauce, separated with refried beans, avocado and cilantro.',
         'history': 'Huevos divorciados were created by Mexican day laborers in order to have a breakfast with enough energy to be able to endure all the hours of work and effort. The ingredients are beans with tortilla chips and, unlike the rancheros, these are served with two different types of sauces; green and red.',
         'main_ingredients': 'Fried Eggs, Fried tostilla, Red or green sauce, Beans.',
-        'img': 'https://drive.google.com/file/d/1dWbHo7AeuH4prbhkGBYtbT9J0gRw2Sn4/view?usp=sharing',
+        'img': 'https://drive.google.com/file/d/1eysfEPIgq5vZ1-cjQWqy1M7sS1280J-w/view?usp=sharing',
         'alt': 'Divorced eggs'
     },
     {

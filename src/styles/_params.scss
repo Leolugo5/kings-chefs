@@ -29,7 +29,10 @@ $Nav_height: 75px;
 
 /* SHADOWS */
 
-$Main_shadow: -1px 10px 21px -13px rgba(0,0,0,0.75);
+$Main_shadow: -1px 10px 21px -13px rgba(0, 0, 0, 0.75);
 $text_shadow_1: 4px 4px 10px $color_1;
 $text_shadow_2: .5px .5px 5px #ffffffb6;
 $text_shadow_3: .1px .1px 3px $color_1;
+
+$fs-large: 2rem;
+$fs-sm: 1rem;

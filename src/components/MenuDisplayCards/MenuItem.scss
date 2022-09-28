@@ -4,15 +4,38 @@
 .menu-items-card {
     color: $color_2;
 
-    .img-cover {
+    .card-top {
         width: 100%;
-        height: 45%;
+        height: 40%;
 
-
-        .img-file {
+        .img-cover {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+
+
+            .img-file {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .card-bottom {
+        padding: .8rem;
+
+        .dish-title {
+            color: $color_3;
+        }
+        .p-description {
+            font-family: $font_sec;
+            font-weight: 400;
+        }
+        .ingredients {
+            padding-top: .8rem;
+            font-weight: 200;
+            font-family: $font_sec;
+            font-size: small;
         }
     }
 }

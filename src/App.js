@@ -5,6 +5,7 @@ import Contact from './pages/Contact/Contact';
 import Booking from './pages/Book/Booking';
 import './styles/style.scss'
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import React from 'react';
 
 function App() {
   return (

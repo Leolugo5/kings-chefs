@@ -3,4 +3,16 @@
 .footer {
     color: $color_2;
     background-color: $color_1;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+
+
+        .a-text:hover {
+            color: $color_2;
+        }
+    }
 }
